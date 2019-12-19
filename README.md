@@ -1,4 +1,10 @@
 # ardrone_autonomy 
+**このブランチは暫定的にmelodicでコンパイルを通せるようにしただけです！   
+実際に実機に接続するとセグメントエラーがでて接続できなくなります。   
+あくまでmelodic用の[tum_simulator](https://github.com/yukimakura/tum_simulator)のビルドを通すためのものです。**
+
+なお、gcc-5およびg++-5をインストールする必要があります。   
+``` $ sudo apt install gcc-5 g++-5 ```
 
 [ROS](http://ros.org) Driver for [Parrot AR-Drone](http://ardrone2.parrot.com/) 1.0 & 2.0 Quadrocopters
 
