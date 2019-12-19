@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(ardrone_autonomy)
 
+set(CMAKE_C_COMPILER "/usr/bin/gcc-5" )
+set(CMAKE_CXX_COMPILER "/usr/bin/g++-5" )
+set (CMAKE_CXX_STANDARD 11)
 # Load catkin and all dependencies required for this package
 find_package(catkin REQUIRED COMPONENTS
     roscpp
